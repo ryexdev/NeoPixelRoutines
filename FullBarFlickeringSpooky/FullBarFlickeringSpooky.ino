@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   all_on(random(0, 100));
-  delay(random(0, 2000));
+  delay(random(0, random(0, 5000)));
 }
 
 void all_on(int Length) {
